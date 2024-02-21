@@ -1,0 +1,11 @@
+Sometimes it can be impossible to connect your SASS files with your CSS files via WATCH SASS. 
+There is very easy way to figure it out and fix the issue manually.
+
+For that we need to use sudo command, to give administative access and install SASS.
+sudo npm install -g sass
+
+So we will run this command to compile SASS to CSS:
+sass static/sass/styles.scss static/css/styles.css
+
+This command will connect your SASS with CSS and change your CSS according to your SASS. Please note if you are making any significant changes, you need to use this command again.
+
